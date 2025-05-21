@@ -1961,40 +1961,6 @@ background: #a0a0a0;
 }
 
 /*----------------------------------------------------------------
- * タブレット表示（991px-1023px）のスタイル調整
- *----------------------------------------------------------------*/
-@media only screen and (min-width: 991px) and (max-width: 1023px) {
-    /* ヘッダートップバーの調整 */
-    .header-top {
-        text-align: left;
-    }
-    
-    .header-top .top-contact li {
-        line-height: 40px;
-        display: inline-block;
-        padding: 0 10px;
-    }
-    
-    .header-top .top-contact li.get-a-quote a {
-        padding: 0 20px;
-    }
-    
-    .top-contact.pull-right {
-        float: right !important;
-    }
-    
-    /* ナビゲーション調整 */
-    .navbar-default {
-        padding: 20px 0;
-    }
-    
-    /* その他タブレット専用の調整 */
-    .contact-detail .promo-content {
-        padding: 20px 20px;
-    }
-}
-
-/*----------------------------------------------------------------
  * デスクトップ表示（1024px以上）のスタイル
  *----------------------------------------------------------------*/
 @media only screen and (min-width: 991px) {
