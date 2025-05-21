@@ -1841,7 +1841,7 @@ background: #a0a0a0;
  * モバイル表示の範囲を990pxまで拡大
  * (通常の768px → 990pxに拡張)
  *----------------------------------------------------------------*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     /* ヘッダートップバーを非表示に */
     .header-top {
         display: none !important;
@@ -1997,7 +1997,7 @@ background: #a0a0a0;
 /*----------------------------------------------------------------
  * デスクトップ表示（1024px以上）のスタイル
  *----------------------------------------------------------------*/
-@media only screen and (min-width: 991px) {
+@media only screen and (min-width: 769px) {
     /* ナビゲーション */
     .navbar-default {
         background-color: #fff;
