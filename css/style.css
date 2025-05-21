@@ -654,6 +654,28 @@ Shortcode Content
     opacity: .8;
 }
 
+/* Media Queries */
+
+@media only screen and (max-width: 1024px){
+    .header-top{
+        text-align:center;
+    }
+
+    .header-top .top-contact li{
+        line-height: 1;
+        padding: 5px 0 10px;
+    }
+
+    .header-top .top-contact li.get-a-quote a{
+        padding: 8px 15px; 
+    }
+
+    .top-contact.pull-right{
+        float: none !important;
+    }
+    
+}
+
 /*-------------------
     HERO SLIDER
 --------------------*/
@@ -1024,6 +1046,12 @@ Shortcode Content
     opacity : 1;
     }
 
+@media (max-width : 992px) {
+    .client-logo .section-margin {
+        margin-bottom : 30px;
+        }
+    }
+
 /*---------------------
  *  case Studies
  *---------------------- */
@@ -1309,7 +1337,11 @@ icon-style
     display: table;
     width: 100%;
 }
-
+@media (max-width: 992px){
+    .contact-detail .promo-block-wrapper{
+        margin-bottom: 1px;
+    }
+}
 .contact-detail .promo-icon {
     width: 82px;
     color: #dadada;
@@ -1346,6 +1378,12 @@ icon-style
     padding: 30px 40px;
     border: 1px solid #f1f1f1;
     border-left: 0;
+}
+
+@media (min-width: 992px) and (max-width: 1024px){
+    .contact-detail .promo-content{
+        padding: 20px 20px;
+    }
 }
 
 .contact-detail .promo-content h3 {
