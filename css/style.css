@@ -1908,9 +1908,96 @@ background: #a0a0a0;
 }
 
 /*----------------------------------------------------------------
- * デスクトップ表示（1024px以上）のスタイル
+ * タブレット＆デスクトップ表示（991px以上）共通スタイル
  *----------------------------------------------------------------*/
 @media only screen and (min-width: 769px) {
+    /* ヘッダートップバーを表示 */
+    .header-top {
+        display: block;
+        background: #0A6ADA;
+    }
+    
+    /* 通常ナビゲーション表示 */
+    .navbar-collapse.collapse {
+        display: block !important;
+    }
+    
+    .navbar-toggle {
+        display: none;
+    }
+    
+    /* フィーチャーボックスの横並び */
+    .featured-box .featured-img,
+    .featured-box .featured-content {
+        display: table-cell;
+        width: 50%;
+        vertical-align: middle;
+    }
+    
+    /* テスティモニアルの横並び */
+    #testimonialSlider .carousel-inner .item blockquote p,
+    #testimonialSlider .carousel-inner .item blockquote .user-details {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    #testimonialSlider .carousel-inner .item blockquote p {
+        width: 75%;
+    }
+    
+    #testimonialSlider .carousel-inner .item blockquote .user-details {
+        width: 25%;
+        position: relative;
+    }
+    
+    /* タブコンテンツのスタイル */
+    .tabOne .tab-content {
+        border: 1px solid #eee;
+        padding: 30px;
+        border-top: 0;
+        overflow: hidden;
+        background: #fff;
+    }
+}
+
+/*----------------------------------------------------------------
+ * タブレット表示（991px-1023px）のスタイル調整
+ *----------------------------------------------------------------*/
+@media only screen and (min-width: 991px) and (max-width: 1023px) {
+    /* ヘッダートップバーの調整 */
+    .header-top {
+        text-align: left;
+    }
+    
+    .header-top .top-contact li {
+        line-height: 40px;
+        display: inline-block;
+        padding: 0 10px;
+    }
+    
+    .header-top .top-contact li.get-a-quote a {
+        padding: 0 20px;
+    }
+    
+    .top-contact.pull-right {
+        float: right !important;
+    }
+    
+    /* ナビゲーション調整 */
+    .navbar-default {
+        padding: 20px 0;
+    }
+    
+    /* その他タブレット専用の調整 */
+    .contact-detail .promo-content {
+        padding: 20px 20px;
+    }
+}
+
+/*----------------------------------------------------------------
+ * デスクトップ表示（1024px以上）のスタイル
+ *----------------------------------------------------------------*/
+@media only screen and (min-width: 991px) {
     /* ナビゲーション */
     .navbar-default {
         background-color: #fff;
