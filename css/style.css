@@ -1908,62 +1908,9 @@ background: #a0a0a0;
 }
 
 /*----------------------------------------------------------------
- * タブレット＆デスクトップ表示（991px以上）共通スタイル
- *----------------------------------------------------------------*/
-@media only screen and (min-width: 769px) {
-    /* ヘッダートップバーを表示 */
-    .header-top {
-        display: block;
-        background: #0A6ADA;
-    }
-    
-    /* 通常ナビゲーション表示 */
-    .navbar-collapse.collapse {
-        display: block !important;
-    }
-    
-    .navbar-toggle {
-        display: none;
-    }
-    
-    /* フィーチャーボックスの横並び */
-    .featured-box .featured-img,
-    .featured-box .featured-content {
-        display: table-cell;
-        width: 50%;
-        vertical-align: middle;
-    }
-    
-    /* テスティモニアルの横並び */
-    #testimonialSlider .carousel-inner .item blockquote p,
-    #testimonialSlider .carousel-inner .item blockquote .user-details {
-        display: table-cell;
-        vertical-align: middle;
-    }
-    
-    #testimonialSlider .carousel-inner .item blockquote p {
-        width: 75%;
-    }
-    
-    #testimonialSlider .carousel-inner .item blockquote .user-details {
-        width: 25%;
-        position: relative;
-    }
-    
-    /* タブコンテンツのスタイル */
-    .tabOne .tab-content {
-        border: 1px solid #eee;
-        padding: 30px;
-        border-top: 0;
-        overflow: hidden;
-        background: #fff;
-    }
-}
-
-/*----------------------------------------------------------------
  * デスクトップ表示（1024px以上）のスタイル
  *----------------------------------------------------------------*/
-@media only screen and (min-width: 991px) {
+@media only screen and (min-width: 769px) {
     /* ナビゲーション */
     .navbar-default {
         background-color: #fff;
