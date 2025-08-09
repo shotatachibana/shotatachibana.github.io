@@ -1,0 +1,3 @@
+## Refereed Papers
+
+1. Shota Tachibana, Makoto Fujiu, Yuma Morisaki (2023): Analysis of regional classification of consumer behavior characteristics using big data on purchasing, Artificial Intelligence and Data Science, Vol.4, No.3, 841-851. [[DOI](https://doi.org/10.11532/jsceiii.4.3_841)]

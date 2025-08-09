@@ -3,12 +3,15 @@ project:
   output-dir: docs
 
 website:
-  title: "shotatachibana.github.io"
+  title: "Shota Tachibana"
   google-analytics: "G-ZD4MJZ2MYG"
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: ABOUT
+      - href: publications.qmd
+        text: PUBLICATIONS
+      
 
 format:
   html:

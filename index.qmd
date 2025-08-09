@@ -1,7 +1,10 @@
 ---
-title: "shotatachibana.github.io"
+title: "Shota Tachibana"
 ---
+Graduate Student, Division of Geosciences and Civil Engineering, Graduate School of Natural Science and Technology, Kanazawa University
 
-This is a Quarto website.
+**Mail**  
+stachibana[at]stu.kanazawa-u.ac.jp
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+**GitHub**  
+[shotatachibana](https://github.com/shotatachibana)
