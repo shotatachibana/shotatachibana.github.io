@@ -15,7 +15,7 @@ website:
       - href: publications.qmd
         text: Publications
       - href: https://shotatachibana.github.io/tips/
-        text: "Tips+"
+        text: "(Tips for me)"
   page-footer: "Copyright 2025, Shota Tachibana"
 
 format:
