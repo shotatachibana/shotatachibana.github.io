@@ -11,7 +11,12 @@ website:
         text: ABOUT
       - href: publications.qmd
         text: PUBLICATIONS
-      
+      - href: tips.qmd
+        text: TIPS
+
+website:
+  repo-url: https://github.com/quarto-dev/quarto-demo
+  repo-actions: [edit, source, issue]  
 
 format:
   html:
