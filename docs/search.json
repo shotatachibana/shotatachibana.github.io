@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Shota Tachibana",
     "section": "",
-    "text": "Graduate Student, Division of Geosciences and Civil Engineering, Graduate School of Natural Science and Technology, Kanazawa University\nMail\nstachibana[at]stu.kanazawa-u.ac.jp\nGitHub\nshotatachibana"
+    "text": "Graduate Student, Division of Geosciences and Civil Engineering, Graduate School of Natural Science and Technology, Kanazawa University\nMail\nstachibana[at]stu.kanazawa-u.ac.jp"
   },
   {
     "objectID": "publications.html",
@@ -19,5 +19,19 @@
     "title": "Shota Tachibana",
     "section": "",
     "text": "Shota Tachibana, Makoto Fujiu, Yuma Morisaki (2023): Analysis of regional classification of consumer behavior characteristics using big data on purchasing, Artificial Intelligence and Data Science, Vol.4, No.3, 841-851. [DOI]"
+  },
+  {
+    "objectID": "tips.html",
+    "href": "tips.html",
+    "title": "Tips (日本語)",
+    "section": "",
+    "text": "作成中…"
+  },
+  {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "データ",
+    "section": "",
+    "text": "作成中…"
   }
 ]

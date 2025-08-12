@@ -6,17 +6,17 @@ website:
   title: "Shota Tachibana"
   google-analytics: "G-ZD4MJZ2MYG"
   navbar:
+    tools:
+      - icon: github
+        href: https://github.com/shotatachibana
     left:
       - href: index.qmd
-        text: ABOUT
+        text: About
       - href: publications.qmd
-        text: PUBLICATIONS
-      - href: tips.qmd
-        text: TIPS
-
-website:
-  repo-url: https://github.com/quarto-dev/quarto-demo
-  repo-actions: [edit, source, issue]  
+        text: Publications
+      - href: https://shotatachibana.github.io/tips/
+        text: "Tips+"
+  page-footer: "Copyright 2025, Shota Tachibana"
 
 format:
   html:
