@@ -11,7 +11,7 @@ website:
         href: https://github.com/shotatachibana
     left:
       - href: index.qmd
-        text: About
+        text: Profile
       - href: publications.qmd
         text: Publications
       - href: https://shotatachibana.github.io/tips/a_intro.html
