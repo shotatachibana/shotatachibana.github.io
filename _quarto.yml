@@ -9,6 +9,8 @@ website:
     tools:
       - icon: github
         href: https://github.com/shotatachibana
+      - icon: linkedin
+        href: https://www.linkedin.com/in/shota-tachibana-75729b41b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bb83kBkogRxm%2BNeuLub37Kw%3D%3D        
     left:
       - href: index.qmd
         text: Profile
