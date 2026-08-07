@@ -20,7 +20,7 @@ website:
       - href: index.qmd
         text: "日本語"
       - href: en/index.qmd
-        text: "EN"
+        text: "English"
   page-footer: "Copyright 2025, Shota Tachibana"
 
 format:
