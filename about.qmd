@@ -1,5 +1,7 @@
 ---
 title: "Shota Tachibana"
+aliases:
+  - /index.html
 ---
 Doctoral Degree Program, School of Environment and Society, Institute of Science Tokyo
 
