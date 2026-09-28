@@ -1,5 +1,5 @@
 ---
-title: "Shota Tachibana [/]{.text-body-tertiary} 橘 翔太"
+title: "Shota Tachibana [/]{.text-body-tertiary .fw-light} 橘 翔太"
 aliases:
   - /index.html
 ---
