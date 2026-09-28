@@ -1,5 +1,5 @@
 ---
-title: "Shota Tachibana"
+title: "Shota Tachibana / 橘 翔太"
 aliases:
   - /index.html
 ---
