@@ -1,7 +1,10 @@
 @font-face {
   font-family: "JP Adjusted";
-  src: local("Hiragino Sans"),
+  font-weight: 400;
+  src: local("Hiragino Sans W3"),
+       local("Hiragino Sans"),
        local("Hiragino Kaku Gothic ProN"),
+       local("Yu Gothic Medium"),
        local("Yu Gothic"),
        local("YuGothic"),
        local("Meiryo"),
@@ -11,8 +14,24 @@
   unicode-range: U+3000-30FF, U+3400-4DBF, U+4E00-9FFF, U+F900-FAFF, U+FF00-FFEF;
 }
 
+@font-face {
+  font-family: "JP Adjusted";
+  font-weight: 700;
+  src: local("Hiragino Sans W6"),
+       local("Hiragino Sans Bold"),
+       local("Hiragino Kaku Gothic ProN W6"),
+       local("Yu Gothic Bold"),
+       local("YuGothic-Bold"),
+       local("Meiryo Bold"),
+       local("Noto Sans CJK JP Bold"),
+       local("Noto Sans JP Bold");
+  size-adjust: 30%;
+  unicode-range: U+3000-30FF, U+3400-4DBF, U+4E00-9FFF, U+F900-FAFF, U+FF00-FFEF;
+}
+
 :root {
-  --bs-font-sans-serif: "Source Sans Pro", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, "JP Adjusted", sans-serif,
+  --bs-body-font-family: "JP Adjusted", "Source Sans Pro", -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --bs-font-sans-serif: var(--bs-body-font-family);
 }
