@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Shota Tachibana"
+  favicon: favicon.png
   google-analytics: "G-ZD4MJZ2MYG"
   navbar:
     tools:
